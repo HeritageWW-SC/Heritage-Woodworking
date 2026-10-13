@@ -12,7 +12,7 @@ function render(filter = 'All') {
     const category = document.createElement('p'); category.className = 'eyebrow'; category.textContent = p.category;
     const title = document.createElement('h3'); title.textContent = p.title;
     const description = document.createElement('p'); description.textContent = p.description;
-    article.append(img, category, title, description); projects.append(article);
+    const preview = document.createElement('button'); preview.className = 'gallery-preview'; preview.type = 'button'; preview.setAttribute('aria-label', 'Enlarge picture: ' + p.title); preview.append(img); preview.addEventListener('click', () => { document.getElementById('gallery-image').src = p.image; document.getElementById('gallery-image').alt = p.title; document.getElementById('gallery-title').textContent = p.title; document.getElementById('gallery-description').textContent = p.description; document.getElementById('gallery-dialog').showModal(); }); article.append(preview, category, title, description); projects.append(article);
   });
 }
 render();
@@ -36,3 +36,7 @@ document.getElementById('quote-form').addEventListener('submit', event => {
   window.location.href = 'mailto:' + config.email + '?subject=' + encodeURIComponent('Woodworking inquiry: ' + data.get('type')) + '&body=' + encodeURIComponent(body);
   document.getElementById('form-status').textContent = 'Your email draft is ready to open. Review it and press Send in your email app. If nothing opens, email us directly using the address above.';
 });
+
+const galleryDialog = document.getElementById('gallery-dialog');
+galleryDialog.querySelector('.gallery-close').addEventListener('click', () => galleryDialog.close());
+galleryDialog.addEventListener('click', event => { if (event.target === galleryDialog) { const bounds = galleryDialog.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) galleryDialog.close(); } });
