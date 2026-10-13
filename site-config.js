@@ -58,8 +58,5 @@ window.SITE_CONFIG = {
     "category": "Custom",
     "description": "Keep keys, wallets, and everyday essentials together.",
     "image": "Valet_Tray.png"
-  }
-]
-    }
-  ]
+   ]
 };
