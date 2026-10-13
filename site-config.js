@@ -4,7 +4,42 @@ window.SITE_CONFIG = {
   "tagline": "Built for Memories. Crafted for Generations.",
   "email": "",
   "location": "South Carolina",
-  "projects": [
+  "projects": [  {
+    "title": "Twin Bed Porch Swing",
+    "category": "Outdoor",
+    "description": "Design example • Custom sizes and finishes available.",
+    "image": "Honey wood twin porch swing.png"
+  },
+  {
+    "title": "Entry Table",
+    "category": "Furniture",
+    "description": "Design example • Custom sizes and finishes available.",
+    "image": "Entry_Table.jpg"
+  },
+  {
+    "title": "Outdoor Table and Benches",
+    "category": "Outdoor",
+    "description": "Design example • Custom sizes and finishes available.",
+    "image": "Outdoor_Table_and_Benches.jpg"
+  },
+  {
+    "title": "Garden Bench",
+    "category": "Outdoor",
+    "description": "Design example • Custom sizes and finishes available.",
+    "image": "Garden_Bench.jpg"
+  },
+  {
+    "title": "Raised Garden Bed",
+    "category": "Outdoor",
+    "description": "Design example • Custom sizes available.",
+    "image": "Raised_Garden_Bed.jpg"
+  },
+  {
+    "title": "Outdoor Planter Box",
+    "category": "Outdoor",
+    "description": "Design example • Custom sizes and finishes available.",
+    "image": "Outdoor_Planter_Box.jpg"
+  },
   {
     "title": "Personalized Cutting Board",
     "category": "Custom",
