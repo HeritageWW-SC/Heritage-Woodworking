@@ -2,7 +2,7 @@
 window.SITE_CONFIG = {
   "name": "Heritage Woodworking",
   "tagline": "Built for Memories. Crafted for Generations.",
-  "email": "",
+  "email": "Heritageww.sc@gmail.com",
   "location": "South Carolina",
   "projects": [  {
     "title": "Twin Bed Porch Swing",
