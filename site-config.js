@@ -7,7 +7,7 @@ window.SITE_CONFIG = {
   "projects": [  {
     "title": "Twin Bed Porch Swing",
     "category": "Outdoor",
-    "description": "Design example • Custom sizes and finishes available.",
+    "description": "Design example • Wooden frame only. Ropes, mattress, and cushions available for an additional charge. Custom sizes and finishes available.",
     "image": "Honey wood twin porch swing.png"
   },
   {
